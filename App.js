@@ -8,7 +8,7 @@ export default function App() {
   const [altura, setAltura] = useState('');
   const [resultado, setResultado] = useState('');
 
-  const urlImage = "https://superfarma.com.br/wp-content/uploads/2022/12/Supera-Farma-Tabela-IMC-Classificacao.png";
+  const urlImage = "https://foreveryoung.sapo.pt/wp-content/uploads/IMC-Classificacao.png";
 
   function calcular() {
     const pesoNum = parseFloat(peso);
